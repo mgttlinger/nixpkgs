@@ -20083,4 +20083,6 @@ with pkgs;
   wal-g = callPackage ../tools/backup/wal-g {};
 
   tlwg = callPackage ../data/fonts/tlwg { };
+
+  wifite2 = callPackage ../tools/security/wifite {};
 }
